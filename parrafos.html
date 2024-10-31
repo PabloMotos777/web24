@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="parrafos" class="py-3">
+                    <h2 class="text-center">PÁRRAFOS</h2>
+                    <p>Un párrafo se hace con la letra <span class="etiquetas">p</span>. Como observamos, entre cada
+                        párrafo existe una línea en blanco.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur perspiciatis quaerat tempore
+                        perferendis illo veniam soluta, natus reprehenderit autem impedit laborum, dolorum modi at! Unde
+                        deleniti quod animi repellendus officia! </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur perspiciatis quaerat tempore
+                        perferendis illo veniam soluta, natus reprehenderit autem impedit laborum, dolorum modi at! Unde
+                        deleniti quod animi repellendus officia! <br />Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsum laborum ducimus id nemo tenetur illo aliquam eius odit qui minus,
+                        voluptates
+                        excepturi, at hic beatae, delectus numquam perferendis animi quos!</p>
+
+                    <p>El párrafo anterior tiene una etiqueta <span class="etiquetas">br</span> para realizar un salto
+                        de línea.</p>
+
+                    <p>Para realizar encabezados (títulos) utilizamos las etiquetas <span
+                            class="etiquetas">h1,h2,h3,h4,h5 y h6</span>.</p>
+
+                    <h1>Encabezado 1</h1>
+                    <h2>Encabezado 2</h2>
+                    <h3>Encabezado 3</h3>
+                    <h4>Encabezado 4</h4>
+                    <h5>Encabezado 5</h5>
+                    <h6>Encabezado 6</h6>
+                    <h2>Negrita y cursiva</h2>
+                    <p>Para poner negrita utilizamos la etiqueta <span class="etiquetas">strong</span>, y para cursiva
+                        <span class="etiquetas">em</span>:<br />
+                        Esto es una <strong>negrita</strong><br />
+                        Esto es una <em>cursiva</em>
+                    </p>
+
+                    <p>Vamos a realizar superíndices y subíndices con las etiquetas <span class="etiquetas">sup y
+                            sub</span>. </br>
+                        superíndice: x<sup>2</sup></br>
+                        Subíndice: x<sub>2</sub></p>
+
+                    <p>Para realizar una abreviatura utilizamos la etiqueta <span class="etiquetas">abbr</span></br>
+                        <abbr title="National Aeronautics and Space Administration">N.A.S.A.</abbr>.
+                    </p>
+
+                    <p>Hemos utilizado la etiqueta <span class="etiquetas">div</span> para realizar bloques y la
+                        etiqueta <span class="etiquetas">span</span> para lo contrario (inline).</p>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Pablo Caro</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
