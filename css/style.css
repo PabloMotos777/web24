@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    background-color: #a0a5d5;
 }
 
 * {
     box-sizing: border-box;
-    color: rgb(18, 0, 110);
+    color: rgb(83, 10, 115);
 }
 
 /* For desktop: */
@@ -156,7 +157,7 @@ a {
 }
 
 .bg-azul-o {
-    background-color: rgb(0 157 222);
+    background-color: rgb(86, 3, 175);
 }
 .bg-azul-c {
     background-color: rgb(240, 249, 252);
