@@ -390,3 +390,9 @@ audio {
 .text-center {
     text-align: center;
 }
+.tr_rojo td{
+    background-color: red;
+}
+.tr_amarillo td{ 
+    background-color: yellow;
+}
