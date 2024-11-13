@@ -345,7 +345,7 @@ table.horario th.grupo {
 .formhtml5 {
     width: 50%;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(46, 77, 255);
 }
 .formhtml5 legend {
     background-color: rgb(6, 6, 71);
@@ -396,4 +396,7 @@ audio {
 }
 .tr_amarillo td{ 
     background-color: yellow;
+}
+.col-3 img {
+    border-radius: 15px;
 }
